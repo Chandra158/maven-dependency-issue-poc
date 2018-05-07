@@ -1,5 +1,5 @@
 ## Overview :
-This project is a poc  for an issue found in Maven dependency management.
+This project is a poc  for an issue reported for Maven dependency management.
 
 ## Related Issue :
 [Maven Dependency / PluginMDEP-610](https://issues.apache.org/jira/browse/MDEP-610?page=com.atlassian.jira.plugin.system.issuetabpanels%3Acomment-tabpanel&focusedCommentId=16465886#comment-16465886) : Reported issue in Apache Jira
@@ -18,7 +18,7 @@ The dependency is picked from current pom.
 ## Example Scenario :
 Download this project and execute mvn clean install.
 ```sh
-git clone
+git clone git@github.com:ProcrastinatorCp/maven-dependency-issue-poc.git
 cd maven-dependency-issue-poc
 mvn clean install
 ```
