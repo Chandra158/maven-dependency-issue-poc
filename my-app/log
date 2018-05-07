@@ -1,0 +1,18 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building my-app 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ my-app ---
+[INFO] com.mycompany.app:my-app:jar:1.0-SNAPSHOT
+[INFO] +- junit:junit:jar:3.8.1:test
+[INFO] +- javax.servlet:servlet-api:jar:2.5:compile
+[INFO] \- javax.servlet:javax.servlet-api:jar:3.1.0:compile
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.982 s
+[INFO] Finished at: 2018-05-07T23:23:39+08:00
+[INFO] Final Memory: 13M/164M
+[INFO] ------------------------------------------------------------------------
